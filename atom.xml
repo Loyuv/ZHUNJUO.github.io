@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhunjuo.github.io</id>
     <title>Loyvu&apos;s Blog 荦愚的正常向博客</title>
-    <updated>2020-02-01T06:18:11.083Z</updated>
+    <updated>2020-02-01T06:38:25.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhunjuo.github.io"/>
     <link rel="self" href="https://zhunjuo.github.io/atom.xml"/>
@@ -25,7 +25,7 @@
         <id>https://zhunjuo.github.io/post/testing-ii</id>
         <link href="https://zhunjuo.github.io/post/testing-ii">
         </link>
-        <updated>2020-01-30T02:10:03.000Z</updated>
+        <updated>2020-01-29T13:10:03.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="testing-how-to-write-a-blog">Testing how to write a blog</h1>
 <h2 id="heading-2">(heading 2)</h2>
 <h3 id="h3-a">h3 a</h3>

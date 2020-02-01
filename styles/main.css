@@ -1884,7 +1884,7 @@ blockquote:before {
   font-weight: bold;
 }
 body {
-      background-color: #ffdeeb;
+      background-color: #ffe3e3;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -1901,39 +1901,39 @@ body {
     * {
         font-family: 'MinGuoBaoZhiZiTi-1.ttf';
     }body {
-      color: #ffa8a8;
+      color: #212529;
     }
     .next-md-body {
-      color: #ffa8a8;
+      color: #212529;
     }
     .next-md-body h1, .next-md-body h2 {
-      border-bottom-color: #ffa8a8;
+      border-bottom-color: #212529;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #ffa8a8;
+      background: #212529;
     }h1, h2, h3, h4, h5, h6 {
-      color: #212529;
+      color: #0b7285;
     }
     
     .archive-timeline-title::before {
-      background-color: #212529;
+      background-color: #0b7285;
     }
     
     .post-title-link::before {
-      background-color: #212529;
+      background-color: #0b7285;
     }
     
     .node-title::before {
-      background-color: #212529;
+      background-color: #0b7285;
     }.bg-color {
       background-color: #c3fae8;
     }a {
-      color: #f08c00;
+      color: #f76707;
     }
     
     .next-md-body a, .friends-box a  {
-      color: #f08c00;
-      border-bottom: 1px solid #f08c00;
+      color: #f76707;
+      border-bottom: 1px solid #f76707;
     }a:hover {
       color: #d9480f;
     }
@@ -1952,7 +1952,7 @@ body {
       border-bottom-color: #d9480f;
     }
       .nav-item a {
-        color:  #f08c00;
+        color:  #f76707;
       }.nav-item a:hover {
         color: #f59f00;
       }.nav-item-active {
@@ -1963,11 +1963,11 @@ body {
       background: #b2f2bb;
       color: rgba(0, 0, 0, 0.98);
     }.markdownIt-TOC a {
-      color: #ff8787;
-      border-bottom-color: #ff8787;
-    }.markdownIt-TOC a:hover {
       color: #e03131;
       border-bottom-color: #e03131;
+    }.markdownIt-TOC a:hover {
+      color: #9c36b5;
+      border-bottom-color: #9c36b5;
     }.active-current > a {
       color: #fc6423 !important;
       border-bottom-color: #fc6423 !important;
