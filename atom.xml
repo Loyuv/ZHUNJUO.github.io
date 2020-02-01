@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhunjuo.github.io</id>
-    <title>Loyvu&apos;s Blog 荦愚的正常向博客</title>
-    <updated>2020-02-01T06:38:25.405Z</updated>
+    <title>Loyvu&apos;s Blog    荦愚的博客</title>
+    <updated>2020-02-01T22:02:57.097Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhunjuo.github.io"/>
     <link rel="self" href="https://zhunjuo.github.io/atom.xml"/>
-    <subtitle>真5 毛网站</subtitle>
+    <subtitle>正常向5毛网站</subtitle>
     <logo>https://zhunjuo.github.io/images/avatar.png</logo>
     <icon>https://zhunjuo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Loyvu&apos;s Blog 荦愚的正常向博客</rights>
+    <rights>All rights reserved 2020, Loyvu&apos;s Blog    荦愚的博客</rights>
     <entry>
         <title type="html"><![CDATA[First writing on Gridea (with Gridea)]]></title>
         <id>https://zhunjuo.github.io/post/first-writing-on-gridea-with-gridea</id>
         <link href="https://zhunjuo.github.io/post/first-writing-on-gridea-with-gridea">
         </link>
-        <updated>2020-01-31T03:14:01.000Z</updated>
-        <content type="html"><![CDATA[<p>I will try to put things on it, not garanteed and I probably won't</p>
-<p>😀</p>
+        <updated>2020-01-29T12:14:01.000Z</updated>
+        <summary type="html"><![CDATA[<p>I will try to put things on it, not garanteed and I probably won't<br>
+😀</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>I will try to put things on it, not garanteed and I probably won't<br>
+😀</p>
+<!-- more -->
 ]]></content>
     </entry>
     <entry>
@@ -25,56 +29,12 @@
         <id>https://zhunjuo.github.io/post/testing-ii</id>
         <link href="https://zhunjuo.github.io/post/testing-ii">
         </link>
-        <updated>2020-01-29T13:10:03.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="testing-how-to-write-a-blog">Testing how to write a blog</h1>
-<h2 id="heading-2">(heading 2)</h2>
-<h3 id="h3-a">h3 a</h3>
-<p>blablabla</p>
-<h3 id="h3-b">h3 b</h3>
-<h3 id=""></h3>
-<p>a paragraph</p>
-<p><u>abcd</u> <strong>abcd</strong></p>
-<p><em>abcd</em></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">a table</th>
-<th>1</th>
-<th>2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">a</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td style="text-align:left">a</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td style="text-align:left">a</td>
-<td>0</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-</ul>
-<h2 id="heading-2-b">heading 2 b.</h2>
-<p>YEAH</p>
-<h3 id="h3-c">h3 c</h3>
-<blockquote>
-<p>a quote</p>
-</blockquote>
+        <updated>2020-01-28T11:10:03.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="testing-how-to-write-a-blog"><strong>Testing how to write a blog</strong></h1>
 ]]></summary>
-        <content type="html"><![CDATA[<h1 id="testing-how-to-write-a-blog">Testing how to write a blog</h1>
-<h2 id="heading-2">(heading 2)</h2>
+        <content type="html"><![CDATA[<h1 id="testing-how-to-write-a-blog"><strong>Testing how to write a blog</strong></h1>
+<!-- more -->
+<h2 id="heading-2"><strong>(heading 2)</strong></h2>
 <h3 id="h3-a">h3 a</h3>
 <p>blablabla</p>
 <h3 id="h3-b">h3 b</h3>
@@ -119,8 +79,36 @@
 <blockquote>
 <p>a quote</p>
 </blockquote>
-<!-- more -->
 <p>汉字————</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grade 11 Chemistry summary (First commit)]]></title>
+        <id>https://zhunjuo.github.io/post/grade-11-chemistry-summary</id>
+        <link href="https://zhunjuo.github.io/post/grade-11-chemistry-summary">
+        </link>
+        <updated>2020-01-28T00:12:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>I am already finished this course so there's probably no chance for me to finish this blog.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>I am already finished this course so there's probably no chance for me to finish this blog.</p>
+<!-- more -->
+<h1 id="bond-trend">Bond &amp; Trend</h1>
+<h2 id="ions">Ions</h2>
+<h3 id="the-octet-rule"><strong>The Octet Rule</strong></h3>
+<blockquote>
+<p>The Octet Rule is a generalization for all atoms wanting to have8 electrons in their valance</p>
+</blockquote>
+<p><strong>Isoelectronic</strong> - having the same amount of  electrons with a <em>noble gas</em>. (Noble gases are stable and don't bond with other atoms.)</p>
+<p>An atom increases its stability if it is isoelectronic with a noble gas and it becomes an ion as it lose or gain one or more electrons.</p>
+<p>**Cations ** Forms when an atom lose one or more electrons.<br>
+<strong>Anions</strong> Forms when an atom gain one or more electrons.</p>
+<p><strong>Multivalent elements</strong> have more than one ion charge, <em>e.g. [Fe(iron) may lose 2 or 3 electrons.]</em> Transition metals have many multivalent elements.</p>
+<p><strong>Polyatomic ions</strong> are ions that contain more than one atoms.</p>
+<h3 id="naming"><strong>Naming</strong></h3>
+<p>Other than IUPAC naming system, elements may have a classical name with an affix of &quot;ous&quot; or &quot;ic&quot;. The name ending with &quot;ous&quot; refer to the lower ion charge and &quot;ic&quot; ending refer to the higher ion charge.</p>
+<p><em>e.g.</em></p>
+<p><em>ferrous = iron(II),  ferric = iron(III);</em></p>
+<p><em>plumbous = lead(II), plumbic = lead(IV)</em></p>
 ]]></content>
     </entry>
 </feed>

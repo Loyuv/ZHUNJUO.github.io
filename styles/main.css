@@ -1998,4 +1998,6 @@ body {
     }
     .mist .site-title i {
       background: #212529;
+    }.box-scale > #landlord {
+      transform: scale([0,0.5]);
     }
