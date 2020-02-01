@@ -1884,7 +1884,7 @@ blockquote:before {
   font-weight: bold;
 }
 body {
-      background-color: #eee;
+      background-color: #fcc2d7;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -1895,39 +1895,39 @@ body {
         margin: 0 auto;
       }
     body {
-      color: #555;
+      color: #212529;
     }
     .next-md-body {
-      color: #555;
+      color: #212529;
     }
     .next-md-body h1, .next-md-body h2 {
-      border-bottom-color: #555;
+      border-bottom-color: #212529;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #555;
+      background: #212529;
     }h1, h2, h3, h4, h5, h6 {
-      color: #555;
+      color: #f8f9fa;
     }
     
     .archive-timeline-title::before {
-      background-color: #555;
+      background-color: #f8f9fa;
     }
     
     .post-title-link::before {
-      background-color: #555;
+      background-color: #f8f9fa;
     }
     
     .node-title::before {
-      background-color: #555;
+      background-color: #f8f9fa;
     }.bg-color {
-      background-color: #fff;
+      background-color: #c5f6fa;
     }a {
-      color: #555;
+      color: #e03131;
     }
     
     .next-md-body a, .friends-box a  {
-      color: #555;
-      border-bottom: 1px solid #555;
+      color: #e03131;
+      border-bottom: 1px solid #e03131;
     }a:hover {
       color: #222;
     }
@@ -1992,4 +1992,6 @@ body {
     }
     .mist .site-title i {
       background: #FFF;
+    }.box-scale > #landlord {
+      transform: scale(0,1);
     }
