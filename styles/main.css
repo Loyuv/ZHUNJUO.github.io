@@ -1895,22 +1895,22 @@ body {
         margin: 0 auto;
       }
     @font-face {
-      font-family: 'QingNiaoHuaGuangJianBaoSong-1.ttf';
-      src: url('/media/fonts/QingNiaoHuaGuangJianBaoSong-1.ttf.ttf');
+      font-family: 'MinGuoBaoZhiZiTi-1';
+      src: url('/media/fonts/MinGuoBaoZhiZiTi-1.ttf');
     }
     * {
-        font-family: 'QingNiaoHuaGuangJianBaoSong-1.ttf';
+        font-family: 'MinGuoBaoZhiZiTi-1';
     }body {
-      color: #f4fce3;
+      color: #ffa8a8;
     }
     .next-md-body {
-      color: #f4fce3;
+      color: #ffa8a8;
     }
     .next-md-body h1, .next-md-body h2 {
-      border-bottom-color: #f4fce3;
+      border-bottom-color: #ffa8a8;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #f4fce3;
+      background: #ffa8a8;
     }h1, h2, h3, h4, h5, h6 {
       color: #212529;
     }
@@ -1926,14 +1926,14 @@ body {
     .node-title::before {
       background-color: #212529;
     }.bg-color {
-      background-color: #96f2d7;
+      background-color: #c3fae8;
     }a {
-      color: #c2255c;
+      color: #f08c00;
     }
     
     .next-md-body a, .friends-box a  {
-      color: #c2255c;
-      border-bottom: 1px solid #c2255c;
+      color: #f08c00;
+      border-bottom: 1px solid #f08c00;
     }a:hover {
       color: #d9480f;
     }

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhunjuo.github.io</id>
-    <title>Zhuojun&apos;s Blog 卓君的正常向博客</title>
-    <updated>2020-02-01T05:01:08.661Z</updated>
+    <title>Loyvu&apos;s Blog 荦愚的正常向博客</title>
+    <updated>2020-02-01T05:12:44.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhunjuo.github.io"/>
     <link rel="self" href="https://zhunjuo.github.io/atom.xml"/>
-    <subtitle>5 毛网站</subtitle>
+    <subtitle>真5 毛网站</subtitle>
     <logo>https://zhunjuo.github.io/images/avatar.png</logo>
     <icon>https://zhunjuo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Zhuojun&apos;s Blog 卓君的正常向博客</rights>
+    <rights>All rights reserved 2020, Loyvu&apos;s Blog 荦愚的正常向博客</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zhunjuo.github.io/post/hello-gridea</id>
