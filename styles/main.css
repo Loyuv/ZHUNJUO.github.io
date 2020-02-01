@@ -1895,11 +1895,11 @@ body {
         margin: 0 auto;
       }
     @font-face {
-      font-family: 'MinGuoBaoZhiZiTi-1';
-      src: url('/media/fonts/MinGuoBaoZhiZiTi-1.ttf');
+      font-family: 'MinGuoBaoZhiZiTi-1.ttf';
+      src: url('/media/fonts/MinGuoBaoZhiZiTi-1.ttf.ttf');
     }
     * {
-        font-family: 'MinGuoBaoZhiZiTi-1';
+        font-family: 'MinGuoBaoZhiZiTi-1.ttf';
     }body {
       color: #ffa8a8;
     }
