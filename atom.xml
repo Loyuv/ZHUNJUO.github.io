@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhunjuo.github.io</id>
-    <title>Loyvu&apos;s Blog    荦愚的博客</title>
-    <updated>2020-02-01T22:02:57.097Z</updated>
+    <title>荦愚的博客 Loyvu&apos;s Blog</title>
+    <updated>2020-02-02T22:21:31.811Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhunjuo.github.io"/>
     <link rel="self" href="https://zhunjuo.github.io/atom.xml"/>
     <subtitle>正常向5毛网站</subtitle>
     <logo>https://zhunjuo.github.io/images/avatar.png</logo>
     <icon>https://zhunjuo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Loyvu&apos;s Blog    荦愚的博客</rights>
+    <rights>All rights reserved 2020, 荦愚的博客 Loyvu&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[First writing on Gridea (with Gridea)]]></title>
         <id>https://zhunjuo.github.io/post/first-writing-on-gridea-with-gridea</id>
@@ -25,14 +25,45 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Grade 11 Chemistry summary (First commit)]]></title>
+        <id>https://zhunjuo.github.io/post/grade-11-chemistry-summary</id>
+        <link href="https://zhunjuo.github.io/post/grade-11-chemistry-summary">
+        </link>
+        <updated>2020-01-28T00:12:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>I am already finished this course so there's probably no chance for me to finish this blog.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>I am already finished this course so there's probably no chance for me to finish this blog.</p>
+<!-- more -->
+<h1 id="bond-trend">Bond &amp; Trend</h1>
+<h2 id="ions">Ions</h2>
+<h3 id="the-octet-rule"><strong>The Octet Rule</strong></h3>
+<blockquote>
+<p>The Octet Rule is a generalization for all atoms wanting to have8 electrons in their valance</p>
+</blockquote>
+<p><strong>Isoelectronic</strong> - having the same amount of  electrons with a <em>noble gas</em>. (Noble gases are stable and don't bond with other atoms.)</p>
+<p>An atom increases its stability if it is isoelectronic with a noble gas and it becomes an ion as it lose or gain one or more electrons.</p>
+<p>**Cations ** Forms when an atom lose one or more electrons.<br>
+<strong>Anions</strong> Forms when an atom gain one or more electrons.</p>
+<p><strong>Multivalent elements</strong> have more than one ion charge, <em>e.g. [Fe(iron) may lose 2 or 3 electrons.]</em> Transition metals have many multivalent elements.</p>
+<p><strong>Polyatomic ions</strong> are ions that contain more than one atoms.</p>
+<h3 id="naming"><strong>Naming</strong></h3>
+<p>Other than IUPAC naming system, elements may have a classical name with an affix of &quot;ous&quot; or &quot;ic&quot;. The name ending with &quot;ous&quot; refer to the lower ion charge and &quot;ic&quot; ending refer to the higher ion charge.</p>
+<p><em>e.g.</em></p>
+<p><em>ferrous = iron(II),  ferric = iron(III);</em></p>
+<p><em>plumbous = lead(II), plumbic = lead(IV)</em></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[testing (II)]]></title>
         <id>https://zhunjuo.github.io/post/testing-ii</id>
         <link href="https://zhunjuo.github.io/post/testing-ii">
         </link>
-        <updated>2020-01-28T11:10:03.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="testing-how-to-write-a-blog"><strong>Testing how to write a blog</strong></h1>
+        <updated>2020-01-26T07:10:03.000Z</updated>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5CXie%5COneDrive%5CDocuments%5Cblog_posts%5Cimages%5Cillust_54032339_20200103_093725.jpg" alt="" loading="lazy"></figure>
+<h1 id="testing-how-to-write-a-blog"><strong>Testing how to write a blog</strong></h1>
 ]]></summary>
-        <content type="html"><![CDATA[<h1 id="testing-how-to-write-a-blog"><strong>Testing how to write a blog</strong></h1>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5CXie%5COneDrive%5CDocuments%5Cblog_posts%5Cimages%5Cillust_54032339_20200103_093725.jpg" alt="" loading="lazy"></figure>
+<h1 id="testing-how-to-write-a-blog"><strong>Testing how to write a blog</strong></h1>
 <!-- more -->
 <h2 id="heading-2"><strong>(heading 2)</strong></h2>
 <h3 id="h3-a">h3 a</h3>
@@ -80,35 +111,6 @@
 <p>a quote</p>
 </blockquote>
 <p>汉字————</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Grade 11 Chemistry summary (First commit)]]></title>
-        <id>https://zhunjuo.github.io/post/grade-11-chemistry-summary</id>
-        <link href="https://zhunjuo.github.io/post/grade-11-chemistry-summary">
-        </link>
-        <updated>2020-01-28T00:12:46.000Z</updated>
-        <summary type="html"><![CDATA[<p>I am already finished this course so there's probably no chance for me to finish this blog.</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>I am already finished this course so there's probably no chance for me to finish this blog.</p>
-<!-- more -->
-<h1 id="bond-trend">Bond &amp; Trend</h1>
-<h2 id="ions">Ions</h2>
-<h3 id="the-octet-rule"><strong>The Octet Rule</strong></h3>
-<blockquote>
-<p>The Octet Rule is a generalization for all atoms wanting to have8 electrons in their valance</p>
-</blockquote>
-<p><strong>Isoelectronic</strong> - having the same amount of  electrons with a <em>noble gas</em>. (Noble gases are stable and don't bond with other atoms.)</p>
-<p>An atom increases its stability if it is isoelectronic with a noble gas and it becomes an ion as it lose or gain one or more electrons.</p>
-<p>**Cations ** Forms when an atom lose one or more electrons.<br>
-<strong>Anions</strong> Forms when an atom gain one or more electrons.</p>
-<p><strong>Multivalent elements</strong> have more than one ion charge, <em>e.g. [Fe(iron) may lose 2 or 3 electrons.]</em> Transition metals have many multivalent elements.</p>
-<p><strong>Polyatomic ions</strong> are ions that contain more than one atoms.</p>
-<h3 id="naming"><strong>Naming</strong></h3>
-<p>Other than IUPAC naming system, elements may have a classical name with an affix of &quot;ous&quot; or &quot;ic&quot;. The name ending with &quot;ous&quot; refer to the lower ion charge and &quot;ic&quot; ending refer to the higher ion charge.</p>
-<p><em>e.g.</em></p>
-<p><em>ferrous = iron(II),  ferric = iron(III);</em></p>
-<p><em>plumbous = lead(II), plumbic = lead(IV)</em></p>
 ]]></content>
     </entry>
 </feed>
