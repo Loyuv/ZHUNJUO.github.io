@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="UTF-8"/>
+    <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>荦愚的博客 Loyvu&#39;s Blog</title>
+<title>睡前随手一记《一秒钟》观后感 | 荦愚的博客 Loyvu&#39;s Blog</title>
 <meta name="keywords" content="荦愚 博客">
 <meta name="description" content="正常向5毛网站">
 <link rel="shortcut icon" href="https://zhunjuo.github.io/favicon.ico?v=1609488089369">
@@ -24,6 +24,8 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
+    <meta name="description" content="睡前随手一记《一秒钟》观后感" />
+    <meta name="keywords" content="番/剧/影 ani/series/film" />
   </head>
   <body>
     <div class="head-top-line"></div>
@@ -121,10 +123,16 @@
     </div>
     <div class="main-continer">
       
-      <div class="section-layout  gemini">
+      <div class="section-layout gemini ">
         <div class="section-layout-wrapper">
-          <div class="sidebar">
-    
+          
+
+<div class="sidebar">
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="https://zhunjuo.github.io/images/avatar.png"/>
@@ -175,60 +183,246 @@
 
 
 </div>
-</div>
-            <div class="section-box tag-line">
-              <div class="box-shadow-wrapper">
-                <div class="bg-color">
-                  <section class="section posts-expand">
-                    <div class="padding-wrapper">
-  <div class="tag-timeline-box">
-    <div class="tag-timeline-wrapper">
-      <div class="tag-timeline-title">
-        <h2>
-          Gridea
-          <small>标签</small>
-        </h2>
+        
       </div>
-      
+    </div>
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+
+  if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+    let hasFix = false;
+    let scrollEl = document.querySelector('.main-continer');
+    let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+    window.addEventListener('scroll', function(e) {
+    if (document.scrollingElement.scrollTop >= limitTop) {
+      if (!hasFix) {
+        sidebar.classList.add('sidebar-fixed');
+        hasFix = true;
+      }
+    } else {
+      if (hasFix) {
+        sidebar.classList.remove('sidebar-fixed');
+        hasFix = false;
+      }
+    }
+  });
+  }
+  
+</script>
+          <div class="section-box box-shadow-wrapper">
+            <div class="section bg-color post post-page">
+              <div class="article-box">
+    <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://zhunjuo.github.io/post/shui-qian-sui-shou-yi-ji-lesslessyi-miao-zhong-greatergreater-guan-hou-gan/">
+      睡前随手一记《一秒钟》观后感
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span>发布于</span>
+      <span>Dec-29th-2020</span>
+    </span>
+    
+      <span class="meta-item">
+        <span class="post-meta-divider pc-show">|</span>
+        <i class="fa fa-folder-o"></i>
+        <span class="pc-show">分类于</span>
         
           
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-            <a href="https://zhunjuo.github.io/post/hello-gridea/">
-              <div class="motion-warpper">
-                <div class="tag-post-node">
-                  <h1>
-                    th-2018
-                    <small>Hello Gridea</small>
-                  </h1>
-                </div>  
-              </div>
+            <a href="https://zhunjuo.github.io/tag/yKGUXAAO1/">
+              <span>番/剧/影 ani/series/film</span>
             </a>
           
         
+      </span>
+      <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>4分钟</span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>994<span class="pc-show">字数</span></span>
+    </span>
+  </div>
+</header>
+</div>
+              <div class="post-body next-md-body" id="post_body">
+                <figure data-type="image" tabindex="1"><img src="https://zhunjuo.github.io/post-images/1609487962517.jpeg" alt="" loading="lazy"></figure>
+<ul>
+<li>
+<p>主观8.5分</p>
+</li>
+<li>
+<p>影片名称来源：主角看有女儿出场的影片，女儿镜头只有一秒，不够。</p>
+</li>
+<li>
+<p>逃犯和女孩都挂念亲人而且其实都内心善良，他们因利益而产生冲突，斗智斗勇数回。发现矛盾并非不可调和而且明白对方受伤的情感之后，他们相互扶持，建立了深厚的感情。</p>
+</li>
+<li>
+<p>电影情节感人，人物性格、心理、情感转折刻画得很真实，势利而官僚的放映员、倔强的女孩、傻拉车的、执着于女儿的逃犯 - 我总能从记忆中找到有着他们影子的人，也常常能与他们的情感共鸣。 （从剧本给出的动机以及演员的表现上）影片还原历史背景，尽管我没生在六七十年代，影片还是能够起我小时候对老地方、老物件的回忆，也符合我对上一代人以及他们所生活时代的印象。</p>
+<ul>
+<li>全片最打动人的地方是角色们不靠言语表达，而是作为和神态所透露出质朴而灼热的情感与善意，这样的情感是人性的一部分，电影重新提醒了我它的存在，提醒了我人性中美好的一部分存在于人类之中，也存在我心中。</li>
+</ul>
+</li>
+<li>
+<p>记忆深刻的地方：</p>
+<ul>
+<li>
+<p>主要角色们自己想展示出来的一面都和他们真正的价值观不合（中国人老傲娇？😂）；</p>
+</li>
+<li>
+<p>影片开始逃犯和小女孩争夺电影时剧情反转多次，节奏却很自然。</p>
+</li>
+<li>
+<p>影片是讲善的故事，却没有避讳对恶的描写，这不仅体现了人性的多面性还对比展现出了善的美好及力量；</p>
+</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li>
+<p>剧透警告</p>
+</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li>
+<p>逃犯对待胶片小心翼翼的态度甚于放映员，期间多次露出渴望寻到女儿踪影的眼神；明明善良，为了确保看到女儿装出一副凶神恶煞模样吓唬放映员配合自己</p>
+</li>
+<li>
+<p>故事主体两年后小女孩一改假小子形象，质朴姑娘的造型很惊艳</p>
+</li>
+<li>
+<p>逃犯被押走时，放映员偷塞给他的女儿的胶片被扔掉，在远方送行的小女孩看不清一切，误以为逃犯想要的是包装的纸，竟妥善保管两年之后交还。逃犯发现没有胶片后和小女孩一起去当年原处寻找，找了几下不见就放下了，两人开怀大笑。</p>
+</li>
+<li>
+<p><strong>一秒钟，不够。一秒钟的念想，哪怕重复一万遍后，一万秒钟也不能填补空洞洞的内心。因为缺失的是情感，当人与人互相温暖后，这一秒钟就变成了给炽热内心的另一点柴薪。</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>**剧情概括：**主角在文革期间被关进劳改所，得知有女儿出场的影片要播出便逃出，只为了在影片里看这个被自己“成分”连累而不愿意认自己的女儿一面。 播放前一天发现个小女孩偷电影胶卷，几番阻止失败，而巧合下电影还是回到了放映员手里，逃犯（主角）也得知小女孩家里的难处 - 偷电影也是因为要做灯罩保护萍水相依的弟弟。后来，有主角女儿出场的影片胶带在路上被弄脏，放映员组织大家清洗。中途逃犯让小女孩保管电影，替她出头。之后却找不到她踪影，放映员以为自己又被骗，着急着闯了她家还吓哭了弟弟。回到放映室发现误会一场，影片被好好地转交了。他忘我地一遍遍欣赏女儿出场画面的同时，保卫科接到举报来抓他 (...未写完...太晚了不写了)</p>
+</li>
+</ul>
+
+              </div>
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      荦愚的博客 Loyvu&#39;s Blog
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://zhunjuo.github.io/post/shui-qian-sui-shou-yi-ji-lesslessyi-miao-zhong-greatergreater-guan-hou-gan/" title="睡前随手一记《一秒钟》观后感">睡前随手一记《一秒钟》观后感</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+      <a href="https://zhunjuo.github.io/tag/yKGUXAAO1/"># 番/剧/影 ani/series/film</a>
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+    </div>
+    <div class="nav-next">
+      
+        <a class="nav-pc-next" title="First writing on Gridea (with Gridea)" href="https://zhunjuo.github.io/post/first-writing-on-gridea-with-gridea/">First writing on Gridea (with Gridea)</a>
+        <a class="nav-mobile-next" title="First writing on Gridea (with Gridea)" href="https://zhunjuo.github.io/post/first-writing-on-gridea-with-gridea/">下一篇</a>
+        <i class="fa fa-chevron-right"></i>
       
     </div>
   </div>
 </div>
-                  </section>
-                </div>
-              </div>
+              
+                
+                
+                  <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css">
+<script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+
+<div id="disqus_thread"></div>
+
+<script>
+var options = {
+  shortname: 'blog1',
+  apikey: 'n7RzoHkroftByY1TkBMJ9cOGELoyzrVcZpY7DIqe72C24fIf8uTFTA2i7viBB29l',
+}
+if ('') {
+  options.api = ''
+}
+var dsqjs = new DisqusJS(options)
+</script>
+                
+              
+            </div>
           </div>
         </div>
       </div>
